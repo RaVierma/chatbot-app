@@ -29,6 +29,7 @@ After installing PostgreSQL, you need to create a database for the chatbot. You 
   Optionally, you can create a new user with privileges on the database. Replace <username> and <password> with your desired username and password:
     CREATE USER <username> WITH PASSWORD '<password>';
     GRANT ALL PRIVILEGES ON DATABASE <database_name> TO <username>;
+3. **Ollam**: Also you need to Run [Ollam](https://ollama.com) if you want to run LLM model local. You can use tinyllama, neural-chat etc.
 
 Now you're ready to install the ChatBot CLI. Clone this repository and build the application using Cargo:
 ```bash
