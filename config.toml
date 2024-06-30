@@ -1,0 +1,14 @@
+[servers]
+ollama_api_server_url = "http://127.0.0.1:11434" 
+api_key = "ollama"
+model_name = "neural-chat"
+vector_store_db_url = "postgresql://postgres:passwd@localhost:5432/postgres" # postgresql vector db
+
+[embedding]
+movies_data_path = "/path/to/data/book.json"
+number_of_movies_data = 20
+books_data_path = "/path/to/data/movie.json"
+number_of_books_data = 20
+vector_dimensions = 2048
+pre_delete_embeddings = true # true if you and delete previously created embedding before create new one
+create_embedding = true # true if you want to create embedding else false
