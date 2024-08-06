@@ -33,6 +33,6 @@ After installing PostgreSQL, you need to create a database for the chatbot. You 
 
 Now you're ready to install the ChatBot CLI. Clone this repository and build the application using Cargo:
 ```bash
-    git clone https://github.com/your_username/chatbot-cli.git
+    git clone https://github.com/RaVierma/chatbot-cli.git
     cd chatbot-cli
     cargo build --release
